@@ -10,7 +10,7 @@ module JIRA
       :request_token_path => "/plugins/servlet/oauth/request-token",
       :authorize_path     => "/plugins/servlet/oauth/authorize",
       :access_token_path  => "/plugins/servlet/oauth/access-token",
-      :private_key_file   => "rsakey.pem",
+      :private_key_file   => nil, #was "rsakey.pem",
       :consumer_key       => nil,
       :consumer_secret    => nil
     }
